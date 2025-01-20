@@ -19,7 +19,7 @@ function Login() {
     formData.append('password', pwd);
 
     const response = await axios({
-        url: '13.125.135.103/loginCheck',
+        url: '/loginCheck',
         method: 'POST',
         data: formData,
         // 중요
