@@ -19,7 +19,7 @@ function Login() {
     formData.append('password', pwd);
 
     const response = await axios({
-        url: 'http://localhost:8080/loginCheck',
+        url: '/loginCheck',
         method: 'POST',
         data: formData,
         // 중요
