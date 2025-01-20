@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 설치 및 구동
 - cd frontend
 - npm install
@@ -40,3 +41,6 @@
     ├── reportWebVitals.js
     └── setupTests.js
 ```
+=======
+# project-cicd-frontend
+>>>>>>> 9a60f8525e9b77850593a7a943be920ab46276a9
